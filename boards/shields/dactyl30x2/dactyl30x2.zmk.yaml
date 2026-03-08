@@ -1,0 +1,15 @@
+file_format: "1"
+id: dactyl30x2
+name: Dactyl30x2
+type: shield
+url: https://github.com/RaulHuertas/dactyl30x2/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - studio
+  - display
+  - i2c
+siblings:
+  - dactyl30x2_left
+  - dactyl30x2_right
