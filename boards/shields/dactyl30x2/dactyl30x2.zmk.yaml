@@ -8,8 +8,6 @@ exposes: []
 features:
   - keys
   - studio
-  - display
-  - i2c
 siblings:
   - dactyl30x2_left
   - dactyl30x2_right
