@@ -11,16 +11,16 @@
 include:
   - board: seeeduino_xiao_ble
     shield: dactyl30x2_left rgbled_adapter  
-    snippet: studio-rpc-usb-uart   zmk-usb-logging
+    snippet: studio-rpc-usb-uart   
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: seeeduino_xiao_ble
     shield: dactyl30x2_right rgbled_adapter
-    snippet: studio-rpc-usb-uart   zmk-usb-logging
+    snippet: studio-rpc-usb-uart   
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: seeeduino_xiao_ble
     shield: dactyl30x2_dongle rgbled_adapter 
-    snippet: studio-rpc-usb-uart   zmk-usb-logging
+    snippet: studio-rpc-usb-uart   
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: seeeduino_xiao_ble
