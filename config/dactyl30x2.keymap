@@ -27,15 +27,15 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE     &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5  &kp NUMBER_6    &kp N7        &kp N8             &kp N9           &kp N0              &kp SINGLE_QUOTE
-&kp PLUS       &kp Q           &kp W           &kp E             &kp R         &kp T   &kp Y           &kp U         &kp I              &kp O            &kp P               &kp GRAVE
-&kp BACKSLASH  &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F   &kp G   &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_WIN L  &hm RIGHT_ALT SEMI  &kp LEFT_BRACKET
-&kp MINUS      &kp Z           &kp X           &kp C             &kp V         &kp B   &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &kp RIGHT_BRACKET
-&kp D          &kp E           &kp F           &kp TAB           &kp B         &kp C   &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp LGUI         &kp ENTER           &kp ESC
+&kp ESCAPE     &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp N7        &kp N8             &kp N9           &kp N0              &kp SINGLE_QUOTE
+&kp PLUS       &kp Q           &kp W           &kp E             &kp R         &kp T         &kp Y           &kp U         &kp I              &kp O            &kp P               &kp GRAVE
+&kp BACKSLASH  &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F   &kp G         &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_WIN L  &hm RIGHT_ALT SEMI  &kp LEFT_BRACKET
+&kp MINUS      &kp Z           &kp X           &kp C             &kp V         &kp B         &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &kp RIGHT_BRACKET
+&kp D          &kp E           &kp F           &lt 3 TAB         &lt 2 SPACE   &lt 1 ESCAPE  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp LGUI         &kp ENTER           &kp ESC
             >;
         };
 
-        layer_2 {
+        fn {
             bindings = <
 &none       &none                 &none           &none      &none           &none           &none           &none       &none       &none      &none              &none
 &kp TAB     &kp PRINTSCREEN       &kp HOME        &kp END    &kp APOS        &kp RBKT        &kp N6          &kp N7      &kp N8      &kp N9     &kp N0             &kp DEL
@@ -45,7 +45,7 @@
             >;
         };
 
-        layer_3 {
+        mouse {
             bindings = <
 &none       &none         &none         &none         &none             &none           &none           &none   &none   &none     &none      &none
 &kp TAB     &kp INSERT    &kp PG_UP     &kp PG_DN     &bt BT_CLR        &bt BT_CLR_ALL  &kp F6          &kp F7  &kp F8  &kp F9    &kp F10    &kp BSPC
@@ -55,7 +55,7 @@
             >;
         };
 
-        layer_4 {
+        bluetooth_music {
             bindings = <
 &none       &none      &none  &none  &none         &none           &none           &none            &none              &none            &none           &none
 &kp TAB     &none      &none  &none  &none         &none           &kp C_MUTE      &kp C_PP         &mkp LCLK          &mkp RCLK        &mkp MCLK       &kp BSPC
